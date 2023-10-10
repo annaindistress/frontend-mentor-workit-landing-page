@@ -1,0 +1,38 @@
+.social {
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  align-items: center;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social__link {
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: hsl(var(--davys-grey));
+}
+
+.social__link:focus {
+  color: hsl(var(--dark-purple));
+  outline: none;
+}
+
+.social__icon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.social__icon--twitter {
+  padding-top: 2px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+
+  .social__link:hover {
+    color: hsl(var(--dark-purple));
+  }
+}

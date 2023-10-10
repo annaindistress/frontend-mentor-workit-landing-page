@@ -1,0 +1,36 @@
+.footer {
+  display: grid;
+  justify-content: center;
+  gap: 58px;
+  padding-top: 74px;
+  padding-bottom: 64px;
+  padding-inline: 16px;
+}
+
+.footer__link {
+  width: 96px;
+  height: 25px;
+  margin-inline: auto;
+  color: hsl(var(--dark-purple));
+}
+
+.footer__logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .footer {
+    padding-top: 120px;
+  }
+}
