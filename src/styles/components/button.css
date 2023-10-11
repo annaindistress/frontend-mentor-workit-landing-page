@@ -1,0 +1,43 @@
+.button {
+  display: inline-block;
+  padding: 12px 22px 13px;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: -.16px;
+  color: hsl(var(--dark-purple));
+  background-color: hsl(var(--eucaplyptus));
+  border: 2px solid hsl(var(--eucaplyptus));
+}
+
+.button:focus {
+  color: hsl(var(--eucaplyptus));
+  background-color: hsl(var(--dark-purple));
+  outline: none;
+}
+
+@media (min-width: 768px) {
+
+  .button {
+    padding-top: 9px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .button {
+    padding: 12px 22px 13px;
+    font-size: 18px;
+    line-height: 1.77;
+    letter-spacing: -.18px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+
+  .button:hover {
+    color: hsl(var(--eucaplyptus));
+    background-color: hsl(var(--dark-purple));
+  }
+}
