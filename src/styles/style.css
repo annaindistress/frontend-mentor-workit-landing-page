@@ -1,9 +1,15 @@
+@import './fonts.css';
 @import './components/box-sizing.css';
 @import './components/social.css';
 @import './components/page.css';
+@import './components/header.css';
 @import './components/footer.css';
 
 :root {
+  --font-basic: 'Manrope', 'Arial', 'Helvetica', sans-serif;
+  --font-fancy: 'Fraunces', 'Georgia', 'Times New Roman', serif;
+
   --dark-purple: 273, 85%, 13%;
   --davys-grey: 271, 12%, 34%;
+  --eucaplyptus: 150, 100%, 63%;
 }
