@@ -1,0 +1,141 @@
+.advantages {
+  position: relative;
+  padding: 160px 16px 70px;
+  overflow: hidden;
+}
+
+.advantages::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 505%;
+  height: 200%;
+  background-color: hsl(var(--ghost-white));
+  border-radius: 100%;
+  transform: translateX(-50%);
+}
+
+.advantages__list {
+  display: grid;
+  gap: 40px;
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  counter-reset: advantages;
+}
+
+.advantages__item {
+  position: relative;
+  padding-top: 72px;
+  text-align: center;
+  counter-increment: advantages;
+}
+
+.advantages__item::before {
+  content: counter(advantages);
+  position: absolute;
+  top: 0;
+  inset-inline-start: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 48px;
+  min-height: 48px;
+  font-family: var(--font-fancy);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.8;
+  color: hsl(var(--dark-purple));
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.advantages__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: var(--font-fancy);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.28;
+}
+
+.advatages__text {
+  margin-block: 0;
+  line-height: 1.75;
+}
+
+@media (min-width: 768px) {
+
+  .advantages {
+    padding-top: 204px;
+    padding-bottom: 105px;
+  }
+
+  .advantages::before {
+    width: 325%;
+  }
+
+  .advantages__list {
+    gap: 48px;
+  }
+
+  .advantages__item {
+    padding-top: 0;
+    padding-inline-start: 80px;
+    text-align: start;
+  }
+
+  .advantages__item::before {
+    top: 50%;
+    inset-inline-start: 0;
+    transform: translateX(0) translateY(-50%);
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .advantages {
+    padding-top: 255px;
+    padding-bottom: 171px;
+  }
+
+  .advantages::before {
+    width: 230%;
+  }
+
+  .advantages__list {
+    max-width: 1114px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+  }
+
+  .advantages__item {
+    padding-top: 112px;
+    padding-inline-start: 0;
+    text-align: center;
+  }
+
+  .advantages__title {
+    margin-bottom: 28px;
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  .advatages__text {
+    font-size: 18px;
+    line-height: 1.77;
+  }
+
+  .advantages__item::before {
+    top: 0;
+    inset-inline-start: 50%;
+    min-width: 56px;
+    min-height: 56px;
+    font-size: 24px;
+    line-height: 1.66;
+    transform: translateX(-50%) translateY(0);
+  }
+}

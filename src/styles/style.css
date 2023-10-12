@@ -1,9 +1,11 @@
 @import './fonts.css';
 @import './components/box-sizing.css';
+@import './components/sr-only.css';
 @import './components/button.css';
 @import './components/social.css';
 @import './components/page.css';
 @import './components/header.css';
+@import './components/advantages.css';
 @import './components/founder.css';
 @import './components/footer.css';
 
@@ -14,4 +16,5 @@
   --dark-purple: 273, 85%, 13%;
   --davys-grey: 271, 12%, 34%;
   --eucaplyptus: 150, 100%, 63%;
+  --ghost-white: 274, 100%, 99%;
 }
