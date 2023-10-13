@@ -1,5 +1,7 @@
 # Workit landing page
 
+This is a solution to the [workit landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
 - [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
 - [Links](#links)
@@ -15,12 +17,22 @@ Users should be able to:
 
 ## Screenshot
 
+![](./screenshot.png)
+
 ## Links
 
 - [Solution URL](https://github.com/annaindistress/frontend-mentor-workit-landing-page)
 - [Live Site URL](https://annaindistress.github.io/frontend-mentor-workit-landing-page/)
 
 ## Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Vite
+- PostCSS
+- SVG Sprite
 
 ## Author
 
