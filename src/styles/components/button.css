@@ -1,6 +1,6 @@
 .button {
   display: inline-block;
-  padding: 12px 22px 13px;
+  padding: 9px 22px 10px;
   text-decoration: none;
   font-weight: 700;
   line-height: 2;
@@ -16,18 +16,10 @@
   outline: none;
 }
 
-@media (min-width: 768px) {
-
-  .button {
-    padding-top: 9px;
-    padding-bottom: 10px;
-  }
-}
-
 @media (min-width: 1200px) {
 
   .button {
-    padding: 12px 22px 13px;
+    padding: 12px 23px 13px;
     font-size: 18px;
     line-height: 1.77;
     letter-spacing: -.18px;

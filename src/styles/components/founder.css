@@ -1,5 +1,5 @@
 .founder {
-  padding-top: 100px;
+  padding-top: 103px;
   padding-inline: 16px;
 }
 
@@ -13,13 +13,13 @@
   width: 281px;
   height: auto;
   margin-inline: auto;
-  margin-bottom: -55px;
+  margin-bottom: -54px;
 }
 
 .founder__content {
   max-width: 514px;
   margin-inline: auto;
-  padding: 32px;
+  padding: 32px 30px;
   text-align: center;
   color: white;
   background-color: hsl(var(--dark-purple));
@@ -36,11 +36,15 @@
 
 .founder__text {
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   line-height: 1.75;
 }
 
 @media (min-width: 768px) {
+
+  .founder {
+    padding-top: 98px;
+  }
 
   .founder__image {
     margin-left: 0;
@@ -59,8 +63,8 @@
   .founder__content::after {
     content: "";
     position: absolute;
-    right: 12px;
-    bottom: -106px;
+    right: 14px;
+    bottom: -114px;
     display: block;
     width: 220px;
     height: 220px;
@@ -91,7 +95,7 @@
 
   .founder__image {
     width: 477px;
-    margin-bottom: -305px;
+    margin-bottom: -304px;
   }
 
   .founder__content {
@@ -100,8 +104,8 @@
   }
 
   .founder__content::after {
-    right: 72px;
-    bottom: -61px;
+    right: 73px;
+    bottom: -71px;
   }
 
   .founder__title {
